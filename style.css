@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 30px 20px 0px 0px;
+    padding: 30px 20px 0px 10px;
 
 }
 
@@ -44,4 +44,81 @@ body {
     border: none;
     color: #FFFFFF;
     font-size: 20px;
+}
+
+.banner-img {
+    width: 635px;
+    height: 800px;
+}
+
+.main-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.main-container {
+    margin-top: 180px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.flower-imgs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.flower-title {
+    display: flex;
+    justify-content: center;
+    gap: 380px;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.main-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.img-one {
+    width: 310px;
+    height: 428px;
+    padding-top: 110px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.img-two {
+    width: 370px;
+    height: 370px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding-top: 117px;
+    padding-left: 47px;
+    padding-right: 47px;
+    padding-bottom: 51px;
+}
+
+.img-three {
+    width: 314px;
+    height: 471px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding-top: 67px;
+    padding-left: 75px;
+    padding-right: 75px;
 }
