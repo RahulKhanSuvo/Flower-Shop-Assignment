@@ -39,12 +39,13 @@ body {
 }
 
 .primary-button {
-    padding: 20px 40px;
+    padding: 18px 35px;
     border-radius: 8px;
     background: #E55473;
     border: none;
     color: #FFFFFF;
     font-size: 20px;
+    border: none;
 }
 
 .banner-img {
@@ -113,6 +114,8 @@ body {
     padding-left: 47px;
     padding-right: 47px;
     padding-bottom: 51px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .img-three {
@@ -154,6 +157,10 @@ body {
 
 }
 
+.off {
+    color: #E55473;
+}
+
 .deal-info {
     align-items: center;
     text-align: center;
@@ -166,6 +173,8 @@ body {
 
 .instagram-description {
     text-align: center;
+    margin-top: 128px;
+    margin-bottom: 48px;
 }
 
 .instagram-photos {
@@ -173,6 +182,20 @@ body {
     justify-content: center;
     gap: 15px;
     margin-bottom: 130px;
+}
+
+.ins-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.ins-des {
+    margin-top: 10px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
 }
 
 .form-banner {
@@ -197,7 +220,7 @@ body {
     width: 600px;
     height: 60px;
     color: rgba(39, 39, 39, 0.60);
-    font-size: 20px;
+    font-size: 25px;
     border: none;
     border-radius: 8px;
 }
