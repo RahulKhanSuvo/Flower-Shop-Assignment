@@ -12,7 +12,8 @@ body {
     width: 100%;
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
+    gap: 65px;
     align-items: center;
     padding: 30px 20px 0px 10px;
 
@@ -80,7 +81,7 @@ body {
     gap: 380px;
     text-decoration: underline;
     font-size: 25px;
-    margin-bottom: 130px;
+    margin-top: 40px;
 }
 
 .main-description {
@@ -159,6 +160,22 @@ body {
 
 }
 
+.customer-services {
+    width: 1440px;
+    height: 300px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-bottom:120px;
+    margin-top: 120px;
+}
+.service-description{
+    text-align: center;
+}
+
 .off {
     color: #E55473;
 }
@@ -203,7 +220,6 @@ body {
 .form-banner {
     width: 1440px;
     height: 449px;
-    flex-shrink: 0;
     display: flex;
     background-image: url("asset/Rectangle9.png");
     background-size: cover;
