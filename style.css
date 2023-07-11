@@ -35,7 +35,6 @@ body {
     line-height: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
-    background-image: url("asset/");
 }
 
 .primary-button {
@@ -129,16 +128,19 @@ body {
 }
 
 .hot-deal-content {
-    width: 1922px;
+    width: 100%;
     height: 620px;
+    ;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     background-position: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 200px;
     align-items: center;
     padding-right: 430px;
     padding-left: 425;
+    margin: auto;
 }
 
 .deal-title {
@@ -168,7 +170,7 @@ body {
 
 .instagram-content {
     width: 1920px;
-    height: 4867px;
+    height: 1200px;
 }
 
 .instagram-description {
@@ -233,4 +235,40 @@ body {
     margin-bottom: 35px;
     margin-top: 16px;
 
+}
+
+.footer-content {
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    height: 450px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.ft-span {
+    color: white;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+.copyright {
+    margin-top: 32px;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
